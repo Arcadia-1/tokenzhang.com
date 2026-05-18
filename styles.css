@@ -285,11 +285,23 @@ h1 {
 
 .site-footer {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   gap: 20px;
   padding: 28px clamp(20px, 6vw, 96px);
   color: var(--muted);
   font-size: 0.9rem;
+}
+
+.traffic-stats {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.traffic-stats strong {
+  color: var(--ink);
+  font-weight: 800;
 }
 
 @media (max-width: 860px) {
@@ -330,6 +342,7 @@ h1 {
 
   .site-footer {
     flex-direction: column;
+    align-items: flex-start;
   }
 }
 

@@ -117,7 +117,23 @@
 
     <footer class="site-footer">
       <span>Token Zhang</span>
+      <span class="traffic-stats" aria-label="Traffic statistics">
+        <span>PV <strong id="busuanzi_site_pv">...</strong></span>
+        <span>UV <strong id="busuanzi_site_uv">...</strong></span>
+      </span>
       <span>Beijing · AI agents for physical-world engineers</span>
     </footer>
+    <script>
+      (function () {
+        var host = window.location.hostname;
+        if (!host || host === "localhost" || host === "127.0.0.1" || host === "::1") {
+          return;
+        }
+        var script = document.createElement("script");
+        script.src = "https://api.busuanzi.cc/static/3.6.9/busuanzi.min.js";
+        script.defer = true;
+        document.body.appendChild(script);
+      }());
+    </script>
   </body>
 </html>
