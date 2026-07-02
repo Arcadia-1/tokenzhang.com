@@ -1,0 +1,41 @@
+{
+  "updated_at": null,
+  "items": {
+    "website": {
+      "reads": null,
+      "likes": null,
+      "follower_delta": null,
+      "following": null
+    },
+    "virtuoso_bridge": {
+      "reads": null,
+      "likes": null,
+      "follower_delta": null,
+      "following": null
+    },
+    "wechat": {
+      "reads": null,
+      "likes": null,
+      "follower_delta": null,
+      "following": null
+    },
+    "xiaohongshu": {
+      "reads": null,
+      "likes": null,
+      "follower_delta": null,
+      "following": null
+    },
+    "douyin": {
+      "reads": null,
+      "likes": null,
+      "follower_delta": null,
+      "following": null
+    },
+    "bilibili": {
+      "reads": null,
+      "likes": null,
+      "follower_delta": null,
+      "following": null
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "updated_at": "2026-06-11T00:00:00+08:00",
+  "channels": {
+    "wechat": {
+      "name": "张托肯用AI",
+      "slogan": "用智能体托举能力，用生产力肯定存在",
+      "account_id": "gh_e9a8f1f9256b",
+      "profile_url": "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzkzNjUwNjYwNA==&scene=124#wechat_redirect"
+    },
+    "xiaohongshu": {
+      "name": "张托肯",
+      "slogan": "用智能体托举能力，用生产力肯定存在",
+      "profile_url": "https://www.xiaohongshu.com/user/profile/5e08339f00000000010056ba?xsec_token=ABKHSoI6_QFA-1NfXlxhIc6SdAL5uLmJxgKNfdYbkoPVw%3D&xsec_source=pc_search"
+    },
+    "bilibili": {
+      "name": "张托肯",
+      "slogan": "托举与肯定",
+      "profile_url": "https://space.bilibili.com/607263563"
+    }
+  },
+  "posts": {
+    "wechat.latest_1": {
+      "title": "实测 Claude Fable 5 做模拟电路｜通关两级全差分运放设计",
+      "date": "昨天",
+      "note": "阅读 5868 · 赞 161 · 1 个朋友转发",
+      "url": "https://mp.weixin.qq.com/s/c__eTT6tq3gtQb6FVAjtNA"
+    },
+    "wechat.latest_2": {
+      "title": "高考之后，训练继续",
+      "date": "星期日",
+      "note": "阅读 2046 · 赞 45 · 1 个朋友转发",
+      "url": "https://mp.weixin.qq.com/s/c__eTT6tq3gtQb6FVAjtNA"
+    },
+    "wechat.latest_3": {
+      "title": "AI 审核芯片测试板，能找出真问题吗？",
+      "date": "星期五",
+      "note": "阅读 4652 · 赞 101 · 1 个朋友转发",
+      "url": "https://mp.weixin.qq.com/s/c__eTT6tq3gtQb6FVAjtNA"
+    },
+    "xiaohongshu.fable_ota": {
+      "title": "Claude Fable 5 通关两级全差分 OTA 设计",
+      "date": "昨天 13:23",
+      "note": "赞 160",
+      "url": "https://www.xiaohongshu.com/user/profile/5e08339f00000000010056ba?xsec_token=ABKHSoI6_QFA-1NfXlxhIc6SdAL5uLmJxgKNfdYbkoPVw%3D&xsec_source=pc_search"
+    },
+    "xiaohongshu.spec_runtime": {
+      "title": "给运放多加一条 spec，AI 从 5 分钟变成 20 分钟",
+      "date": "04-07",
+      "note": "赞 144",
+      "url": "https://www.xiaohongshu.com/user/profile/5e08339f00000000010056ba?xsec_token=ABKHSoI6_QFA-1NfXlxhIc6SdAL5uLmJxgKNfdYbkoPVw%3D&xsec_source=pc_search"
+    },
+    "xiaohongshu.phd_defense": {
+      "title": "520｜博士，不生了",
+      "date": "05-20",
+      "note": "赞 696",
+      "url": "https://www.xiaohongshu.com/user/profile/5e08339f00000000010056ba?xsec_token=ABKHSoI6_QFA-1NfXlxhIc6SdAL5uLmJxgKNfdYbkoPVw%3D&xsec_source=pc_search"
+    },
+    "bilibili.fable_opamp": {
+      "title": "【瘫坐在椅子上】Claude Fable 5 从零生成两级全差分运...",
+      "date": "06-10",
+      "note": "播放 5209 · 时长 48:16",
+      "url": "https://space.bilibili.com/607263563"
+    },
+    "bilibili.adc": {
+      "title": "用 AI 玩转 ADC：建模、频谱与校准",
+      "date": "06-06",
+      "note": "播放 1982 · 时长 32:19",
+      "url": "https://www.bilibili.com/video/BV17y7266ESp/"
+    },
+    "bilibili.io_ring": {
+      "title": "用 virtuoso-bridge 做流片 I/O 环的原理图和版图",
+      "date": "06-01",
+      "note": "播放 1526 · 时长 15:04",
+      "url": "https://www.bilibili.com/video/BV1cu5F6MEn8/"
+    }
+  }
+}

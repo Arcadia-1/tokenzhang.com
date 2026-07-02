@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 760" fill="none">
+  <defs>
+    <linearGradient id="bridge" x1="270" y1="356" x2="1132" y2="356" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff" stop-opacity=".16"/>
+      <stop offset=".18" stop-color="#ffffff" stop-opacity=".9"/>
+      <stop offset=".5" stop-color="#d5f0ff" stop-opacity=".82"/>
+      <stop offset=".82" stop-color="#ffffff" stop-opacity=".92"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity=".32"/>
+    </linearGradient>
+    <linearGradient id="thinBridge" x1="284" y1="336" x2="1116" y2="336" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff" stop-opacity=".24"/>
+      <stop offset=".45" stop-color="#ffffff" stop-opacity=".88"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity=".34"/>
+    </linearGradient>
+    <radialGradient id="centerGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(710 350) rotate(90) scale(360 680)">
+      <stop stop-color="#c6ebff" stop-opacity=".32"/>
+      <stop offset=".55" stop-color="#2f9de7" stop-opacity=".13"/>
+      <stop offset="1" stop-color="#0b1420" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blurGlow" x="160" y="130" width="1120" height="470" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+
+  <rect width="1440" height="760" fill="url(#centerGlow)"/>
+
+  <g opacity=".24" stroke="#2380d2" stroke-width="1.5">
+    <path d="M168 146h1104c34 0 62 28 62 62v344c0 34-28 62-62 62H168c-34 0-62-28-62-62V208c0-34 28-62 62-62Z"/>
+    <path d="M210 188h1020c28 0 50 22 50 50v282c0 28-22 50-50 50H210c-28 0-50-22-50-50V238c0-28 22-50 50-50Z"/>
+  </g>
+
+  <g filter="url(#blurGlow)" opacity=".74">
+    <path d="M300 382C516 274 780 244 1110 382" stroke="url(#bridge)" stroke-width="24" stroke-linecap="round"/>
+  </g>
+
+  <path d="M300 382C516 274 780 244 1110 382" stroke="url(#bridge)" stroke-width="11" stroke-linecap="round"/>
+  <path d="M318 364C534 276 782 260 1092 364" stroke="url(#thinBridge)" stroke-width="5.5" stroke-linecap="round" opacity=".98"/>
+  <path d="M128 440C396 494 668 562 1028 520" stroke="#ffffff" stroke-width="7" stroke-linecap="round" opacity=".22"/>
+  <path d="M88 466C394 516 682 600 1120 548" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity=".2"/>
+
+  <g stroke="#1f78c8" stroke-linecap="round" stroke-linejoin="round">
+    <g opacity=".76">
+      <rect x="84" y="302" width="172" height="116" rx="14" stroke-width="3"/>
+      <path d="M108 326h22M147 326h62" stroke-width="2"/>
+      <path d="M116 358l18 16-18 16" stroke-width="3"/>
+      <path d="M150 392h56" stroke-width="3"/>
+      <circle cx="108" cy="316" r="5" fill="#1f78c8" opacity=".72" stroke="none"/>
+      <circle cx="126" cy="316" r="5" fill="#1f78c8" opacity=".48" stroke="none"/>
+      <circle cx="144" cy="316" r="5" fill="#1f78c8" opacity=".62" stroke="none"/>
+    </g>
+
+    <g opacity=".58" stroke="#ffffff">
+      <rect x="1012" y="238" width="386" height="270" rx="36" stroke-width="5"/>
+      <rect x="1118" y="314" width="184" height="128" rx="16" stroke-width="5"/>
+      <path d="M1152 276v38M1190 276v38M1228 276v38M1266 276v38" stroke-width="5"/>
+      <path d="M1152 442v38M1190 442v38M1228 442v38M1266 442v38" stroke-width="5"/>
+      <path d="M1078 348h40M1078 382h40M1078 416h40" stroke-width="5"/>
+      <path d="M1302 348h46M1302 382h46M1302 416h46" stroke-width="5"/>
+      <text x="1210" y="396" fill="#ffffff" opacity=".58" font-family="Georgia, 'Times New Roman', serif" font-size="48" text-anchor="middle">IC</text>
+    </g>
+
+    <g opacity=".46">
+      <path d="M490 276v82M705 236v146M920 280v78" stroke-width="2"/>
+      <path d="M458 392v42M734 392v66M960 392v42" stroke-width="2"/>
+      <circle cx="526" cy="300" r="4" fill="#1f78c8" stroke="none"/>
+      <circle cx="826" cy="284" r="4" fill="#1f78c8" stroke="none"/>
+      <circle cx="940" cy="348" r="4" fill="#1f78c8" stroke="none"/>
+    </g>
+  </g>
+</svg>
