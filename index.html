@@ -3442,8 +3442,12 @@
       heroAvatar.classList.remove("is-sparkling");
     });
 
-    const endpoint = "/api/tokenzhang-metrics";
-    const channelEndpoints = ["/api/tokenzhang-channels", "./tokenzhang-channels.json"];
+    const metricsEndpoint = window.location.pathname.startsWith("/en/")
+      ? "../tokenzhang-metrics.json"
+      : "./tokenzhang-metrics.json";
+    const channelEndpoints = window.location.pathname.startsWith("/en/")
+      ? ["./tokenzhang-channels.json", "../tokenzhang-channels.json"]
+      : ["./tokenzhang-channels.json"];
     const status = document.querySelector("[data-metrics-status]");
     const cards = document.querySelectorAll("[data-metric-card]");
 
@@ -3519,7 +3523,7 @@
 
     async function refreshMetrics() {
       try {
-        const response = await fetch(endpoint, { cache: "no-store" });
+        const response = await fetch(metricsEndpoint, { cache: "no-store" });
         if (!response.ok) throw new Error("metrics endpoint unavailable");
         const payload = await response.json();
         cards.forEach((card) => {

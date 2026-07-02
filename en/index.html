@@ -2953,8 +2953,8 @@
       : navSections[0]?.id;
     if (initialNavId) setActiveNav(initialNavId);
 
-    const endpoint = "/api/tokenzhang-metrics";
-    const channelEndpoints = ["/api/tokenzhang-channels?lang=en", "./tokenzhang-channels.json"];
+    const metricsEndpoint = "../tokenzhang-metrics.json";
+    const channelEndpoints = ["./tokenzhang-channels.json", "../tokenzhang-channels.json"];
     const status = document.querySelector("[data-metrics-status]");
     const cards = document.querySelectorAll("[data-metric-card]");
 
@@ -3027,7 +3027,7 @@
 
     async function refreshMetrics() {
       try {
-        const response = await fetch(endpoint, { cache: "no-store" });
+        const response = await fetch(metricsEndpoint, { cache: "no-store" });
         if (!response.ok) throw new Error("metrics endpoint unavailable");
         const payload = await response.json();
         cards.forEach((card) => {

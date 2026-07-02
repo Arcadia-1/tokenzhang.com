@@ -1,0 +1,76 @@
+{
+  "updated_at": "2026-06-12T00:00:00+08:00",
+  "channels": {
+    "wechat": {
+      "name": "张托肯用AI",
+      "slogan": "用智能体托举能力，用生产力肯定存在",
+      "profile_url": "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzkzNjUwNjYwNA==&scene=124#wechat_redirect"
+    },
+    "xiaohongshu": {
+      "name": "张托肯",
+      "slogan": "用智能体托举能力，用生产力肯定存在",
+      "profile_url": "https://www.xiaohongshu.com/user/profile/5e08339f00000000010056ba?xsec_token=ABKHSoI6_QFA-1NfXlxhIc6SdAL5uLmJxgKNfdYbkoPVw%3D&xsec_source=pc_search"
+    },
+    "bilibili": {
+      "name": "张托肯",
+      "slogan": "托举与肯定",
+      "profile_url": "https://space.bilibili.com/607263563"
+    }
+  },
+  "posts": {
+    "wechat.latest_1": {
+      "date": "Yesterday",
+      "title": "Testing Claude Fable 5 on analog circuits: two-stage fully differential op-amp design",
+      "note": "Reads 5,868 · Likes 161 · 1 friend shared",
+      "url": "https://mp.weixin.qq.com/s/c__eTT6tq3gtQb6FVAjtNA"
+    },
+    "wechat.latest_2": {
+      "date": "Sunday",
+      "title": "After Gaokao, training continues",
+      "note": "Reads 2,046 · Likes 45 · 1 friend shared",
+      "url": "https://mp.weixin.qq.com/s/c__eTT6tq3gtQb6FVAjtNA"
+    },
+    "wechat.latest_3": {
+      "date": "Friday",
+      "title": "Can AI review a chip test board and find real issues?",
+      "note": "Reads 4,652 · Likes 101 · 1 friend shared",
+      "url": "https://mp.weixin.qq.com/s/c__eTT6tq3gtQb6FVAjtNA"
+    },
+    "xiaohongshu.fable_ota": {
+      "date": "Yesterday 13:23",
+      "title": "Claude Fable 5 completes a two-stage fully differential OTA design",
+      "note": "160 likes",
+      "url": "https://www.xiaohongshu.com/user/profile/5e08339f00000000010056ba?xsec_token=ABKHSoI6_QFA-1NfXlxhIc6SdAL5uLmJxgKNfdYbkoPVw%3D&xsec_source=pc_search"
+    },
+    "xiaohongshu.spec_runtime": {
+      "date": "Apr 7",
+      "title": "Adding one more spec to an op-amp: AI goes from 5 minutes to 20 minutes",
+      "note": "144 likes",
+      "url": "https://www.xiaohongshu.com/user/profile/5e08339f00000000010056ba?xsec_token=ABKHSoI6_QFA-1NfXlxhIc6SdAL5uLmJxgKNfdYbkoPVw%3D&xsec_source=pc_search"
+    },
+    "xiaohongshu.phd_defense": {
+      "date": "May 20",
+      "title": "520 | Ph.D., no more birthing",
+      "note": "696 likes",
+      "url": "https://www.xiaohongshu.com/user/profile/5e08339f00000000010056ba?xsec_token=ABKHSoI6_QFA-1NfXlxhIc6SdAL5uLmJxgKNfdYbkoPVw%3D&xsec_source=pc_search"
+    },
+    "bilibili.fable_opamp": {
+      "date": "Jun 10",
+      "title": "[Collapsed in the chair] Claude Fable 5 generates a two-stage fully differential op-amp from scratch...",
+      "note": "5,209 views · 48:16",
+      "url": "https://space.bilibili.com/607263563"
+    },
+    "bilibili.adc": {
+      "date": "Jun 6",
+      "title": "Using AI for ADC modeling, spectrum analysis, and calibration",
+      "note": "1,982 views · 32:19",
+      "url": "https://www.bilibili.com/video/BV17y7266ESp/"
+    },
+    "bilibili.io_ring": {
+      "date": "Jun 1",
+      "title": "Using virtuoso-bridge for tapeout I/O ring schematic and layout",
+      "note": "1,526 views · 15:04",
+      "url": "https://www.bilibili.com/video/BV1cu5F6MEn8/"
+    }
+  }
+}
